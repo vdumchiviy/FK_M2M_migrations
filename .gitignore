@@ -12,3 +12,5 @@ website/__pycache__/urls.cpython-37.pyc
 .vscode/settings.json
 website/__pycache__/wsgi.cpython-37.pyc
 school/migrations/__pycache__/0003_auto_20210213_1856.cpython-37.pyc
+school/migrations/__pycache__/0004_teacher_student.cpython-37.pyc
+school/migrations/__pycache__/0005_auto_20210213_2345.cpython-37.pyc
