@@ -4,8 +4,8 @@ from django.db import models
 class Teacher(models.Model):
     name = models.CharField(max_length=30, verbose_name='Имя')
     subject = models.CharField(max_length=10, verbose_name='Предмет')
-    student = models.ManyToManyField(
-        'Student', through="TeacherStudent", related_name='teachers')
+    # student = models.ManyToManyField(
+    #     'Student', through="TeacherStudent", related_name='teachers')
 
     class Meta:
         verbose_name = 'Учитель'
